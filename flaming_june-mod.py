@@ -11,7 +11,8 @@ screen = pygame.display.set_mode([x_res, y_res], pygame.SHOWN)
 fSizeX = 200
 fSizeY = 150
 fStartX = int(x_res/2-fSizeX/2)
-fStartY = int(y_res/2+fSizeY/2)
+#fStartY = int(y_res/2+fSizeY/2)
+fStartY = y_res
 y = 199
 x = 1
 flame = [[]]
@@ -52,18 +53,32 @@ while running:
             running = False
     
     # INIT DISPLAY
-
+    def rand():
+        return [round(random.randint(0, 255)), round(random.randint(0, 255)), round(random.randint(0, 255)), round(random.randint(0, 255))]
     screen.fill((0, 0, 0))
 
-    screen.blit(font.render("flaming june", True, (255, 255, 255)), (x_res//2 - 75, 100))
+    text = "Happy Flaming June!"
+
+    def draw_rainbow_text(screen, font, text, pos, tick):
+        x, y = pos
+
+        for i, char in enumerate(text):
+            r = int(127 + 127 * math.sin(tick * 0.004 + i * 0.45))
+            g = int(127 + 127 * math.sin(tick * 0.004 + i * 0.45 + 2.1))
+            b = int(127 + 127 * math.sin(tick * 0.004 + i * 0.45 + 4.2))
+
+            letter = font.render(char, True, (r, g, b))
+            screen.blit(letter, (x, y))
+            x += letter.get_width()
+
+    draw_rainbow_text(screen, pygame.font.SysFont("msgothic", 36), text, (x_res // 2 - 150, 50), 2)
+
     # RANDOM SEED
 
 
     for r in range(fSizeX):
         flame[fSizeY][r] = random.randint(0, 255)
-    #    #flame[fSizeY-1][r] = random.randint(0, 255)
-    #    #flame[fSizeY-2][r] = random.randint(0, 255)
-    
+
     # MAIN
 
     px = pygame.PixelArray(fire_surf)
@@ -79,7 +94,7 @@ while running:
                             + flame[y + 1][src_x]
                             + flame[y + 1][src_x + 1]
                             + flame[y][x]
-                    ) / 4
+                    ) / 4 / 0.978
 
             heat = max(0, int(value - cooling))
             flame[y][x] = heat
@@ -87,27 +102,28 @@ while running:
 
     del px
 
-            ydisplacement = fStartY
-            if red < 1:
-                red = 0
+    ydisplacement = fStartY
+    if heat < 1:
+        heat = 0
 
-            else:
-                pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement - fSizeY + y, fire_color(red))
-                #big_fire = pygame.transform.smoothscale(fire_surf, (fSizeX * 4, fSizeY * 4))
-                #screen.blit(fire_surf, (x_res // 2, y_res // 2))
-                #pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement-10 - fSizeY + y, (fCol, 0, 0))
-                #pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement-20 - fSizeY + y, (fCol, 0, 0))
-                ydisplacement -= 4
-            #pygame.time.delay(1)
+    pygame.gfxdraw.pixel(fire_surf, x, ydisplacement + y, fire_color(heat))
+    pygame.transform.scale(fire_surf, fire_big.get_size(), fire_big)
 
-    #pygame.time.delay(1)
-#    if y < 2:
-#        y = fSizeY - 1
-#        x = 1
-#    if x > fSizeX - 1:
-#        x = 1
-    
-#    x += 1
+    screen.blit(
+        fire_big,
+        (fStartX, fStartY - fSizeY * scale),
+    )
+    pygame.transform.smoothscale(fire_surf, glow_big.get_size(), glow_big)
+    glow_big.set_alpha(45)
+
+    screen.blit(
+        glow_big,
+        (fStartX - fSizeX * scale // 2, fStartY - fSizeY * scale * 2),
+        special_flags=pygame.BLEND_ADD,
+    )
+
+
+    ydisplacement -= 4
 
     pygame.display.flip()
     dt = timer.tick(159) / 1000

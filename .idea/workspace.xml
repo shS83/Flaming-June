@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Sixth">
-      <change afterPath="$PROJECT_DIR$/flaming_june_round.py" afterDir="false" />
+    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Fiery globs of fire">
+      <change afterPath="$PROJECT_DIR$/flaming_june-mod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaming_june.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june.py" afterDir="false" />
     </list>
@@ -31,61 +31,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000016493906851" />
-      <entry key="MS500" value="1.0844169068725389" />
-      <entry key="S2" value="2.3853270126586628" />
-      <entry key="S5" value="4.383120193642695" />
-      <entry key="S10" value="5.793540892507983" />
-      <entry key="S30" value="7.222622942073204" />
-      <entry key="S60" value="8.53172014805906" />
-      <entry key="M2" value="13.466178167246042" />
-      <entry key="M5" value="38.847279610844545" />
-      <entry key="M10" value="87.95541641705334" />
-      <entry key="M15" value="126.64904465452854" />
-      <entry key="M30" value="191.77869183312205" />
-      <entry key="H1" value="240.41840091656553" />
-      <entry key="H2" value="270.3969094435948" />
-      <entry key="H4" value="287.0745243432805" />
-      <entry key="D1" value="301.92155904383594" />
-      <entry key="W1" value="304.5579404635905" />
+      <entry key="MS100" value="1.0000000149041206" />
+      <entry key="MS500" value="1.0465916149561048" />
+      <entry key="S2" value="1.7807263717031798" />
+      <entry key="S5" value="2.372917842718157" />
+      <entry key="S10" value="2.689096597614097" />
+      <entry key="S30" value="4.594761215154001" />
+      <entry key="S60" value="8.366716434773469" />
+      <entry key="M2" value="14.118567723645475" />
+      <entry key="M5" value="28.45599665572372" />
+      <entry key="M10" value="52.821201318046846" />
+      <entry key="M15" value="80.2167179006732" />
+      <entry key="M30" value="154.84635967188825" />
+      <entry key="H1" value="239.86203660431337" />
+      <entry key="H2" value="306.505091355828" />
+      <entry key="H4" value="348.60027331490886" />
+      <entry key="D1" value="389.2049597827955" />
+      <entry key="W1" value="396.72903490737536" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.0443991547838094E-269" />
-      <entry key="S5" value="3.921034261063287E-108" />
-      <entry key="S10" value="1.9801601604575523E-54" />
-      <entry key="S30" value="1.2557410924154354E-18" />
-      <entry key="S60" value="1.120598542036994E-9" />
-      <entry key="M2" value="3.3475342299026425E-5" />
-      <entry key="M5" value="0.016213994098848362" />
-      <entry key="M10" value="0.127334182758788" />
-      <entry key="M15" value="0.25310263714045883" />
-      <entry key="M30" value="0.5030930700580756" />
-      <entry key="H1" value="0.7092905399468361" />
-      <entry key="H2" value="0.8421938850091675" />
-      <entry key="H4" value="0.9177112209236409" />
-      <entry key="D1" value="0.9857898456973926" />
-      <entry key="W1" value="0.9979575051180851" />
+      <entry key="MS500" value="2.037272539607544E-158" />
+      <entry key="S2" value="3.778002864262877E-40" />
+      <entry key="S5" value="1.7017858690863833E-16" />
+      <entry key="S10" value="1.3045251508063705E-8" />
+      <entry key="S30" value="0.0023540597703285994" />
+      <entry key="S60" value="0.04851865383879273" />
+      <entry key="M2" value="0.220269502876691" />
+      <entry key="M5" value="0.5460985095987722" />
+      <entry key="M10" value="0.7495015786280808" />
+      <entry key="M15" value="0.8655557027312636" />
+      <entry key="M30" value="1.1236779942681936" />
+      <entry key="H1" value="1.4194552114216417" />
+      <entry key="H2" value="1.6596692755497884" />
+      <entry key="H4" value="1.814858517089229" />
+      <entry key="D1" value="1.9668139308458985" />
+      <entry key="W1" value="1.9951985308049824" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.923639298138037E-5" />
-      <entry key="MS500" value="0.1636601055836738" />
-      <entry key="S2" value="1.7345227170477586" />
-      <entry key="S5" value="3.9472947281702493" />
-      <entry key="S10" value="5.510061442113735" />
-      <entry key="S30" value="7.102739430967877" />
-      <entry key="S60" value="8.45583649680581" />
-      <entry key="M2" value="13.405898198563268" />
-      <entry key="M5" value="38.81903815220711" />
-      <entry key="M10" value="88.05074635621507" />
-      <entry key="M15" value="126.8768198896731" />
-      <entry key="M30" value="192.26613256386727" />
-      <entry key="H1" value="241.1188267016871" />
-      <entry key="H2" value="271.2343611041085" />
-      <entry key="H4" value="287.9897795784859" />
-      <entry key="D1" value="302.9069270801438" />
-      <entry key="W1" value="305.55583739518084" />
+      <entry key="MS100" value="0.00379943800660037" />
+      <entry key="MS500" value="0.3501489383821084" />
+      <entry key="S2" value="1.2945794045216579" />
+      <entry key="S5" value="2.0499343702893063" />
+      <entry key="S10" value="2.4874920198116586" />
+      <entry key="S30" value="4.476543305117565" />
+      <entry key="S60" value="8.311164158669156" />
+      <entry key="M2" value="14.249385655527504" />
+      <entry key="M5" value="28.929544457029195" />
+      <entry key="M10" value="53.5129736845982" />
+      <entry key="M15" value="81.0337799176602" />
+      <entry key="M30" value="155.93675260501936" />
+      <entry key="H1" value="241.2609729030618" />
+      <entry key="H2" value="308.15317343683114" />
+      <entry key="H4" value="350.4089450320743" />
+      <entry key="D1" value="391.17068174699494" />
+      <entry key="W1" value="398.7240758640212" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -100,6 +100,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.flaming_june-mod.executor": "Run",
     "Python.flaming_june.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -353,7 +354,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781454640793</updated>
-      <workItem from="1781454641932" duration="2602000" />
+      <workItem from="1781454641932" duration="4446000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -411,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781456324029</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fiery globs of fire">
+      <option name="closed" value="true" />
+      <created>1781457301297</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781457301297</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,9 +434,11 @@
     <MESSAGE value="Fourth commit" />
     <MESSAGE value="Fifth" />
     <MESSAGE value="Sixth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sixth" />
+    <MESSAGE value="Fiery globs of fire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fiery globs of fire" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781457236054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781457259615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_mod.coverage" NAME="flaming_june-mod Coverage Results" MODIFIED="1781459072974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
