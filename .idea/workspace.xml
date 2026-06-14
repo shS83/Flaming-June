@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Fourth commit">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Sixth">
+      <change afterPath="$PROJECT_DIR$/flaming_june_round.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaming_june.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,61 +31,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0063902288007296" />
-      <entry key="MS500" value="1.4156863477774757" />
-      <entry key="S2" value="2.253552520567337" />
-      <entry key="S5" value="2.6474787049815323" />
-      <entry key="S10" value="2.813064284285666" />
-      <entry key="S30" value="3.0146388813884704" />
-      <entry key="S60" value="4.235764255313527" />
-      <entry key="M2" value="11.379959915395993" />
-      <entry key="M5" value="46.6571720298493" />
-      <entry key="M10" value="94.75192414253237" />
-      <entry key="M15" value="123.96809692096461" />
-      <entry key="M30" value="164.91093055295042" />
-      <entry key="H1" value="191.3810543692717" />
-      <entry key="H2" value="206.48294111942337" />
-      <entry key="H4" value="214.55584115490905" />
-      <entry key="D1" value="221.5660800474228" />
-      <entry key="W1" value="222.79449343131355" />
+      <entry key="MS100" value="1.0000016493906851" />
+      <entry key="MS500" value="1.0844169068725389" />
+      <entry key="S2" value="2.3853270126586628" />
+      <entry key="S5" value="4.383120193642695" />
+      <entry key="S10" value="5.793540892507983" />
+      <entry key="S30" value="7.222622942073204" />
+      <entry key="S60" value="8.53172014805906" />
+      <entry key="M2" value="13.466178167246042" />
+      <entry key="M5" value="38.847279610844545" />
+      <entry key="M10" value="87.95541641705334" />
+      <entry key="M15" value="126.64904465452854" />
+      <entry key="M30" value="191.77869183312205" />
+      <entry key="H1" value="240.41840091656553" />
+      <entry key="H2" value="270.3969094435948" />
+      <entry key="H4" value="287.0745243432805" />
+      <entry key="D1" value="301.92155904383594" />
+      <entry key="W1" value="304.5579404635905" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="7.367315325739867E-158" />
-      <entry key="S5" value="1.4025672804998525E-63" />
-      <entry key="S10" value="3.745086488320196E-32" />
-      <entry key="S30" value="3.345702215177674E-11" />
-      <entry key="S60" value="5.784204539241055E-6" />
-      <entry key="M2" value="0.0024050373259558813" />
-      <entry key="M5" value="0.08962903661301025" />
-      <entry key="M10" value="0.2993810892708664" />
-      <entry key="M15" value="0.44752390931710373" />
-      <entry key="M30" value="0.6689722784369356" />
-      <entry key="H1" value="0.8179072554005951" />
-      <entry key="H2" value="0.9043822507107238" />
-      <entry key="H4" value="0.9509901422784128" />
-      <entry key="D1" value="0.9916597111236702" />
-      <entry key="W1" value="0.9988042492392089" />
+      <entry key="S2" value="3.0443991547838094E-269" />
+      <entry key="S5" value="3.921034261063287E-108" />
+      <entry key="S10" value="1.9801601604575523E-54" />
+      <entry key="S30" value="1.2557410924154354E-18" />
+      <entry key="S60" value="1.120598542036994E-9" />
+      <entry key="M2" value="3.3475342299026425E-5" />
+      <entry key="M5" value="0.016213994098848362" />
+      <entry key="M10" value="0.127334182758788" />
+      <entry key="M15" value="0.25310263714045883" />
+      <entry key="M30" value="0.5030930700580756" />
+      <entry key="H1" value="0.7092905399468361" />
+      <entry key="H2" value="0.8421938850091675" />
+      <entry key="H4" value="0.9177112209236409" />
+      <entry key="D1" value="0.9857898456973926" />
+      <entry key="W1" value="0.9979575051180851" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9325918296325085" />
-      <entry key="MS500" value="1.3954694547671513" />
-      <entry key="S2" value="2.2460082918200936" />
-      <entry key="S5" value="2.644003687195102" />
-      <entry key="S10" value="2.8112311562392023" />
-      <entry key="S30" value="3.013936106809876" />
-      <entry key="S60" value="4.233919575835793" />
-      <entry key="M2" value="11.376039522485652" />
-      <entry key="M5" value="46.7348958563386" />
-      <entry key="M10" value="95.03969552159782" />
-      <entry key="M15" value="124.40570770957477" />
-      <entry key="M30" value="165.5734673599828" />
-      <entry key="H1" value="192.19527579797065" />
-      <entry key="H2" value="207.38534833064966" />
-      <entry key="H4" value="215.50580864853876" />
-      <entry key="D1" value="222.5575642493743" />
-      <entry key="W1" value="223.7932724811701" />
+      <entry key="MS100" value="4.923639298138037E-5" />
+      <entry key="MS500" value="0.1636601055836738" />
+      <entry key="S2" value="1.7345227170477586" />
+      <entry key="S5" value="3.9472947281702493" />
+      <entry key="S10" value="5.510061442113735" />
+      <entry key="S30" value="7.102739430967877" />
+      <entry key="S60" value="8.45583649680581" />
+      <entry key="M2" value="13.405898198563268" />
+      <entry key="M5" value="38.81903815220711" />
+      <entry key="M10" value="88.05074635621507" />
+      <entry key="M15" value="126.8768198896731" />
+      <entry key="M30" value="192.26613256386727" />
+      <entry key="H1" value="241.1188267016871" />
+      <entry key="H2" value="271.2343611041085" />
+      <entry key="H4" value="287.9897795784859" />
+      <entry key="D1" value="302.9069270801438" />
+      <entry key="W1" value="305.55583739518084" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -117,6 +118,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shsis\PycharmProjects\Flaming_June" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="flaming-june" />
@@ -347,7 +353,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781454640793</updated>
-      <workItem from="1781454641932" duration="1473000" />
+      <workItem from="1781454641932" duration="2602000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -389,7 +395,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781455958536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fifth">
+      <option name="closed" value="true" />
+      <created>1781456212892</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1781456212892</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sixth">
+      <option name="closed" value="true" />
+      <created>1781456324029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1781456324029</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,9 +423,11 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Third commit" />
     <MESSAGE value="Fourth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth commit" />
+    <MESSAGE value="Fifth" />
+    <MESSAGE value="Sixth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sixth" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781456101674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781457236054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

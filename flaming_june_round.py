@@ -55,7 +55,10 @@ while running:
 
 
     for r in range(fSizeX):
-        flame[fSizeY][r] = random.randint(0, 255)
+        edge = abs(r - fSizeX / 2) / (fSizeX / 2)
+        shape = max(0, 1 - edge ** 2)
+        flame[fSizeY][r] = int(random.randint(120, 255) * shape)
+#        flame[fSizeY][r] = random.randint(0, 255)
     #    #flame[fSizeY-1][r] = random.randint(0, 255)
     #    #flame[fSizeY-2][r] = random.randint(0, 255)
     
@@ -73,7 +76,7 @@ while running:
                              + flame[y + 1][src_x]
                              + flame[y + 1][src_x + 1]
                              + flame[y][x]
-                     ) / 4 / 0.967
+                     ) / 4 / 0.98
             flame[y][x] = max(0, int(value - cooling))
             red = flame[y][x]
 
