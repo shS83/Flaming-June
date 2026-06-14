@@ -71,7 +71,7 @@ while running:
             screen.blit(letter, (x, y))
             x += letter.get_width()
 
-    draw_rainbow_text(screen, pygame.font.SysFont("msgothic", 36), text, (x_res // 2 - 150, 50), 2)
+    draw_rainbow_text(screen, pygame.font.SysFont("msgothic", 36), text, (x_res // 2 - 150, 50), pygame.time.get_ticks())
 
     # RANDOM SEED
 
@@ -94,7 +94,7 @@ while running:
                             + flame[y + 1][src_x]
                             + flame[y + 1][src_x + 1]
                             + flame[y][x]
-                    ) / 4 / 0.978
+                    ) / 4 / 0.969
 
             heat = max(0, int(value - cooling))
             flame[y][x] = heat
