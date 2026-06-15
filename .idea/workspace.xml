@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Added a modded version with a proper title.">
+    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Flame is being a bit erratic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaming_june-mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june-mod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaming_june.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaming_june_round.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june_round.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,61 +31,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000087383014" />
-      <entry key="MS500" value="1.0244503697332128" />
-      <entry key="S2" value="1.4091372199332597" />
-      <entry key="S5" value="2.0504830140401547" />
-      <entry key="S10" value="3.2941577122099575" />
-      <entry key="S30" value="8.533564917642611" />
-      <entry key="S60" value="13.423718065403907" />
-      <entry key="M2" value="20.295378933394236" />
-      <entry key="M5" value="36.261366547619666" />
-      <entry key="M10" value="61.20511103161514" />
-      <entry key="M15" value="88.42088610655523" />
-      <entry key="M30" value="163.3504658132142" />
-      <entry key="H1" value="250.67566929955692" />
-      <entry key="H2" value="320.2506026434198" />
-      <entry key="H4" value="364.6045342113309" />
-      <entry key="D1" value="407.646247140103" />
-      <entry key="W1" value="415.6476432244086" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000039508" />
+      <entry key="S5" value="1.0000762368453733" />
+      <entry key="S10" value="1.0211962377031871" />
+      <entry key="S30" value="1.9120002784533139" />
+      <entry key="S60" value="3.3386563424758093" />
+      <entry key="M2" value="4.745693247015073" />
+      <entry key="M5" value="5.969323288188466" />
+      <entry key="M10" value="6.460384030822008" />
+      <entry key="M15" value="6.634633061523118" />
+      <entry key="M30" value="6.814448522845277" />
+      <entry key="H1" value="6.939117739863434" />
+      <entry key="H2" value="10.64682211787081" />
+      <entry key="H4" value="46.59199281281629" />
+      <entry key="D1" value="294.1984585872363" />
+      <entry key="W1" value="410.47633129878625" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.572379485125489E-265" />
-      <entry key="S2" value="8.223099909051969E-67" />
-      <entry key="S5" value="3.681410331233877E-27" />
-      <entry key="S10" value="6.067462674985218E-14" />
-      <entry key="S30" value="3.9294856259041664E-5" />
-      <entry key="S60" value="0.006268560940043703" />
-      <entry key="M2" value="0.07917424421890228" />
-      <entry key="M5" value="0.3626793370176381" />
-      <entry key="M10" value="0.610799204635231" />
-      <entry key="M15" value="0.7551715659929895" />
-      <entry key="M30" value="1.0495839465430141" />
-      <entry key="H1" value="1.3718585851859866" />
-      <entry key="H2" value="1.6316063247641397" />
-      <entry key="H4" value="1.7994495986888395" />
-      <entry key="D1" value="1.9640208527396203" />
-      <entry key="W1" value="1.9947935146451237" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="3.9157585829094057E-237" />
+      <entry key="M2" value="6.257602246588579E-119" />
+      <entry key="M5" value="5.231815551000859E-48" />
+      <entry key="M10" value="2.3198679688029907E-24" />
+      <entry key="M15" value="1.8383244628791586E-16" />
+      <entry key="M30" value="1.6375910197237483E-8" />
+      <entry key="H1" value="1.713576429427488E-4" />
+      <entry key="H2" value="0.01823528046425723" />
+      <entry key="H4" value="0.1902340353262225" />
+      <entry key="D1" value="1.3505298371684094" />
+      <entry key="W1" value="1.8908774772226744" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.839461532824537E-8" />
-      <entry key="MS500" value="0.04239118055296833" />
-      <entry key="S2" value="0.7574206152346906" />
-      <entry key="S5" value="1.6715163979557" />
-      <entry key="S10" value="3.0489001709939885" />
-      <entry key="S30" value="8.423866232138726" />
-      <entry key="S60" value="13.35771674314511" />
-      <entry key="M2" value="20.31155459381489" />
-      <entry key="M5" value="36.56315147887903" />
-      <entry key="M10" value="61.76244383642004" />
-      <entry key="M15" value="89.12945342292609" />
-      <entry key="M30" value="164.36680464816618" />
-      <entry key="H1" value="252.02661774171048" />
-      <entry key="H2" value="321.8702776042192" />
-      <entry key="H4" value="366.3975793754394" />
-      <entry key="D1" value="409.6091325335818" />
-      <entry key="W1" value="417.64227276172636" />
+      <entry key="MS100" value="1.7406672910589947E-5" />
+      <entry key="MS500" value="0.11172314529459834" />
+      <entry key="S2" value="0.5781436878972832" />
+      <entry key="S5" value="0.8032561647097921" />
+      <entry key="S10" value="0.9170032357952357" />
+      <entry key="S30" value="1.8701834823055603" />
+      <entry key="S60" value="3.312845213902784" />
+      <entry key="M2" value="4.730390206848869" />
+      <entry key="M5" value="5.962368660235322" />
+      <entry key="M10" value="6.456739432434511" />
+      <entry key="M15" value="6.632163748311069" />
+      <entry key="M30" value="6.813193457325501" />
+      <entry key="H1" value="6.938653715065764" />
+      <entry key="H2" value="10.664606274626816" />
+      <entry key="H4" value="46.78139027915781" />
+      <entry key="D1" value="295.54818072254227" />
+      <entry key="W1" value="412.3670494755727" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -101,6 +102,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.flaming_june-mod.executor": "Run",
     "Python.flaming_june.executor": "Run",
+    "Python.flaming_june_round.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -353,7 +355,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781454640793</updated>
-      <workItem from="1781454641932" duration="4609000" />
+      <workItem from="1781454641932" duration="5931000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -427,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781459157235</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Flame is being a bit erratic">
+      <option name="closed" value="true" />
+      <created>1781459456619</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1781459456619</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,10 +453,12 @@
     <MESSAGE value="Sixth" />
     <MESSAGE value="Fiery globs of fire" />
     <MESSAGE value="Added a modded version with a proper title." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a modded version with a proper title." />
+    <MESSAGE value="Flame is being a bit erratic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flame is being a bit erratic" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781457259615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_mod.coverage" NAME="flaming_june-mod Coverage Results" MODIFIED="1781459248012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_round.coverage" NAME="flaming_june_round Coverage Results" MODIFIED="1781506087773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781505874320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_mod.coverage" NAME="flaming_june-mod Coverage Results" MODIFIED="1781459276471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

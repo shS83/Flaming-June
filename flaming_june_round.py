@@ -55,10 +55,10 @@ while running:
 
 
     for r in range(fSizeX):
-        edge = abs(r - fSizeX / 2) / (fSizeX / 2)
-        shape = max(0, 1 - edge ** 2)
-        flame[fSizeY][r] = int(random.randint(120, 255) * shape)
-#        flame[fSizeY][r] = random.randint(0, 255)
+        # edge = abs(r - fSizeX / 2) / (fSizeX / 2)
+        # shape = max(0, 1 - edge ** 2)
+        # flame[fSizeY][r] = int(random.randint(120, 255) * shape)
+       flame[fSizeY][r] = random.randint(0, 255)
     #    #flame[fSizeY-1][r] = random.randint(0, 255)
     #    #flame[fSizeY-2][r] = random.randint(0, 255)
     
@@ -67,7 +67,7 @@ while running:
     for y in range(fSizeY-1, 0, -1):
         for x in range(0, fSizeX-1):
    
-            # flame[y][x] = int(round(((flame[y+1][x-1] + flame[y][x] + flame[y+1][x+1]) / 3)) / 1.001)
+            flame[y][x] = int(round(((flame[y+1][x-1] + flame[y][x] + flame[y+1][x+1]) / 3)) / 1.001)
             cooling = random.randint(0, 8)
             drift = random.choice([-1, 0, 1])
             src_x = max(1, min(fSizeX - 2, x + drift))
@@ -76,21 +76,21 @@ while running:
                              + flame[y + 1][src_x]
                              + flame[y + 1][src_x + 1]
                              + flame[y][x]
-                     ) / 4 / 0.98
+                     ) / 4 / 0.968
             flame[y][x] = max(0, int(value - cooling))
             red = flame[y][x]
 
             ydisplacement = fStartY
-            if red < 1:
-                red = 0
+            # if red < 1:
+            #     red = 0
 
-            else:
-                pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement - fSizeY + y, fire_color(red))
+            # else:
+            pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement - fSizeY + y, fire_color(red))
                 #big_fire = pygame.transform.smoothscale(fire_surf, (fSizeX * 4, fSizeY * 4))
                 #screen.blit(fire_surf, (x_res // 2, y_res // 2))
                 #pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement-10 - fSizeY + y, (fCol, 0, 0))
                 #pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement-20 - fSizeY + y, (fCol, 0, 0))
-                ydisplacement -= 4
+            ydisplacement -= 4
             #pygame.time.delay(1)
 
     #pygame.time.delay(1)

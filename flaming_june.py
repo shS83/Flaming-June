@@ -61,9 +61,7 @@ while running:
 
     for r in range(fSizeX):
         flame[fSizeY][r] = random.randint(0, 255)
-    #    #flame[fSizeY-1][r] = random.randint(0, 255)
-    #    #flame[fSizeY-2][r] = random.randint(0, 255)
-    
+
     # MAIN
 
     px = pygame.PixelArray(fire_surf)
@@ -87,27 +85,13 @@ while running:
 
     del px
 
-            ydisplacement = fStartY
-            if red < 1:
-                red = 0
+    ydisplacement = fStartY
+    if heat < 1:
+        heat = 0
 
-            else:
-                pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement - fSizeY + y, fire_color(red))
-                #big_fire = pygame.transform.smoothscale(fire_surf, (fSizeX * 4, fSizeY * 4))
-                #screen.blit(fire_surf, (x_res // 2, y_res // 2))
-                #pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement-10 - fSizeY + y, (fCol, 0, 0))
-                #pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement-20 - fSizeY + y, (fCol, 0, 0))
-                ydisplacement -= 4
-            #pygame.time.delay(1)
-
-    #pygame.time.delay(1)
-#    if y < 2:
-#        y = fSizeY - 1
-#        x = 1
-#    if x > fSizeX - 1:
-#        x = 1
-    
-#    x += 1
+    else:
+        pygame.gfxdraw.pixel(screen, fStartX + x, ydisplacement - fSizeY + y, fire_color(heat))
+        ydisplacement -= 4
 
     pygame.display.flip()
     dt = timer.tick(159) / 1000
