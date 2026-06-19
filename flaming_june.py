@@ -81,8 +81,10 @@ while running:
 
 			heat = max(0, int(value - cooling))
 			flame[y][x] = heat
-			px[x, y] = palette[heat]
-
+			try:
+				px[x, y] = palette[heat]
+			except IndexError:
+				continue
 	del px
 
 	yDisplacement = fStartY
