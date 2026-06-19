@@ -13,7 +13,7 @@ running = True
 font = pygame.font.Font('VINERITC.TTF', 36)
 screen = pygame.display.set_mode([x_res, y_res], pygame.SHOWN)
 fSizeX = 200
-fSizeY = 150
+fSizeY = 200
 fStartX = int(x_res/2-fSizeX/2)
 #fStartY = int(y_res/2+fSizeY/2)
 fStartY = y_res
@@ -115,30 +115,29 @@ while running:
 
     del px
 
-    ydisplacement = fStartY
-    if heat < 1:
-        heat = 0
+    try:
+        pygame.gfxdraw.rectangle(fire_surf, (x, y, x+1, y+1), fire_color(heat, min(2, y)/ min(2, alpha[y][x])))
+    except ZeroDivisionError:
+        pygame.gfxdraw.rectangle(fire_surf, (x, y, x + 1, y + 1), fire_color(heat, alpha[y][x]))
 
-    pygame.gfxdraw.rectangle(fire_surf, (x, y, x+1, ydisplacement - y+1), fire_color(heat, alpha[y][x]))
     pygame.transform.scale(fire_surf, fire_big.get_size(), fire_big)
 
     screen.blit(
         fire_big,
-        (fStartX, fStartY - fSizeY * scale),
+        (fStartX, fStartY - fSizeY * scale),  special_flags=pygame.BLEND_RGBA_ADD
     )
     pygame.transform.scale(fire_surf, glow_big.get_size(), glow_big)
+
+    dt = timer.tick(159) / 1000
+
     try:
-        glow_big.set_alpha(alpha[random.randint(1, 255)][random.randint(1, 255)])
+        glow_big.set_alpha(alpha[round(random.randint(1, 255) * dt)][round(random.randint(1, 255) * dt)])
     except IndexError:
-        glow_big.set_alpha(200)
+        glow_big.set_alpha(round(50 * dt))
     screen.blit(
         glow_big,
         (fStartX - fSizeX * scale * 3 // 2, fStartY - fSizeY * scale * 3),
-        special_flags=pygame.BLEND_MULT,
+        special_flags=pygame.BLEND_RGBA_SUB,
     )
 
-
-    ydisplacement -= 4
-
     pygame.display.flip()
-    dt = timer.tick(159) / 1000
