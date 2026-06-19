@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Flame is being a bit erratic">
+    <list default="true" id="6899ba94-fada-4882-bef4-920f1c8bd294" name="Changes" comment="Flaming june wasn't woring normally">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaming_june.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaming_june_round.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaming_june_round.py" afterDir="false" />
@@ -17,80 +17,80 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shS83"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shS83&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shS83/Flaming-June.git",
-    "accountId": "5f8dd465-5b19-4cbe-9ac2-e94d6ab2b242"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shS83/Flaming-June.git&quot;,
+    &quot;accountId&quot;: &quot;5f8dd465-5b19-4cbe-9ac2-e94d6ab2b242&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000039508" />
-      <entry key="S5" value="1.0000762368453733" />
-      <entry key="S10" value="1.0211962377031871" />
-      <entry key="S30" value="1.9120002784533139" />
-      <entry key="S60" value="3.3386563424758093" />
-      <entry key="M2" value="4.745693247015073" />
-      <entry key="M5" value="5.969323288188466" />
-      <entry key="M10" value="6.460384030822008" />
-      <entry key="M15" value="6.634633061523118" />
-      <entry key="M30" value="6.814448522845277" />
-      <entry key="H1" value="6.939117739863434" />
-      <entry key="H2" value="10.64682211787081" />
-      <entry key="H4" value="46.59199281281629" />
-      <entry key="D1" value="294.1984585872363" />
-      <entry key="W1" value="410.47633129878625" />
+      <entry key="MS100" value="1.0000000200760886" />
+      <entry key="MS500" value="1.0326280293160583" />
+      <entry key="S2" value="1.6658556573949983" />
+      <entry key="S5" value="2.4697002776222274" />
+      <entry key="S10" value="3.2194951621114516" />
+      <entry key="S30" value="4.257035809154868" />
+      <entry key="S60" value="5.053963770202346" />
+      <entry key="M2" value="8.403736313785952" />
+      <entry key="M5" value="28.142156179696528" />
+      <entry key="M10" value="61.28793272166781" />
+      <entry key="M15" value="89.16267705004746" />
+      <entry key="M30" value="146.38809473491122" />
+      <entry key="H1" value="199.87181781652802" />
+      <entry key="H2" value="240.42529313117214" />
+      <entry key="H4" value="293.456886655795" />
+      <entry key="D1" value="560.3962356114885" />
+      <entry key="W1" value="687.9396741903205" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="3.9157585829094057E-237" />
-      <entry key="M2" value="6.257602246588579E-119" />
-      <entry key="M5" value="5.231815551000859E-48" />
-      <entry key="M10" value="2.3198679688029907E-24" />
-      <entry key="M15" value="1.8383244628791586E-16" />
-      <entry key="M30" value="1.6375910197237483E-8" />
-      <entry key="H1" value="1.713576429427488E-4" />
-      <entry key="H2" value="0.01823528046425723" />
-      <entry key="H4" value="0.1902340353262225" />
-      <entry key="D1" value="1.3505298371684094" />
-      <entry key="W1" value="1.8908774772226744" />
+      <entry key="S2" value="2.9346753025707264E-178" />
+      <entry key="S5" value="9.705636521931653E-72" />
+      <entry key="S10" value="3.1153870581248297E-36" />
+      <entry key="S30" value="1.4605082873839643E-12" />
+      <entry key="S60" value="1.2088838019576675E-6" />
+      <entry key="M2" value="0.0011394234344022421" />
+      <entry key="M5" value="0.12530138480238925" />
+      <entry key="M10" value="1.0177279350296438" />
+      <entry key="M15" value="2.2228735130505033" />
+      <entry key="M30" value="5.057116011190322" />
+      <entry key="H1" value="7.747796983741393" />
+      <entry key="H2" value="9.641094743498979" />
+      <entry key="H4" value="10.90181993421576" />
+      <entry key="D1" value="13.087784425095132" />
+      <entry key="W1" value="13.850481767976598" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7406672910589947E-5" />
-      <entry key="MS500" value="0.11172314529459834" />
-      <entry key="S2" value="0.5781436878972832" />
-      <entry key="S5" value="0.8032561647097921" />
-      <entry key="S10" value="0.9170032357952357" />
-      <entry key="S30" value="1.8701834823055603" />
-      <entry key="S60" value="3.312845213902784" />
-      <entry key="M2" value="4.730390206848869" />
-      <entry key="M5" value="5.962368660235322" />
-      <entry key="M10" value="6.456739432434511" />
-      <entry key="M15" value="6.632163748311069" />
-      <entry key="M30" value="6.813193457325501" />
-      <entry key="H1" value="6.938653715065764" />
-      <entry key="H2" value="10.664606274626816" />
-      <entry key="H4" value="46.78139027915781" />
-      <entry key="D1" value="295.54818072254227" />
-      <entry key="W1" value="412.3670494755727" />
+      <entry key="MS100" value="4.005052297841229E-6" />
+      <entry key="MS500" value="0.09838518598403229" />
+      <entry key="S2" value="1.0276396341281646" />
+      <entry key="S5" value="2.0668567240250035" />
+      <entry key="S10" value="2.962154395840561" />
+      <entry key="S30" value="4.147589657464711" />
+      <entry key="S60" value="4.9904456552967265" />
+      <entry key="M2" value="8.359505528621423" />
+      <entry key="M5" value="28.21678108244327" />
+      <entry key="M10" value="62.2497347614034" />
+      <entry key="M15" value="91.32982752598551" />
+      <entry key="M30" value="151.39797068881575" />
+      <entry key="H1" value="207.58693846100016" />
+      <entry key="H2" value="250.04675482494125" />
+      <entry key="H4" value="304.34741604758574" />
+      <entry key="D1" value="573.481325122302" />
+      <entry key="W1" value="701.7897202954906" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
+  "associatedIndex": 8,
+  "fromUser": true
 }]]></component>
   <component name="ProjectId" id="3F8RJqoBJLefiC0hmXe3K1bAd4d" />
   <component name="ProjectViewState">
@@ -105,6 +105,7 @@
     "Python.flaming_june_round.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -116,6 +117,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -126,54 +128,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="flaming_june" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="flaming-june" />
       <option name="ENV_FILES" value="" />
@@ -200,145 +154,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.App">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.Celery" factoryName="Python.Celery.Task">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="flaming-june" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -355,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781454640793</updated>
-      <workItem from="1781454641932" duration="5931000" />
+      <workItem from="1781454641932" duration="6021000" />
+      <workItem from="1781817783301" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -437,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781459456619</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Flaming june wasn't woring normally">
+      <option name="closed" value="true" />
+      <created>1781506231560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781506231560</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,11 +278,12 @@
     <MESSAGE value="Fiery globs of fire" />
     <MESSAGE value="Added a modded version with a proper title." />
     <MESSAGE value="Flame is being a bit erratic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flame is being a bit erratic" />
+    <MESSAGE value="Flaming june wasn't woring normally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flaming june wasn't woring normally" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_round.coverage" NAME="flaming_june_round Coverage Results" MODIFIED="1781506087773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781505874320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_mod.coverage" NAME="flaming_june-mod Coverage Results" MODIFIED="1781459276471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_round.coverage" NAME="flaming_june_round Coverage Results" MODIFIED="1781821674931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june.coverage" NAME="flaming_june Coverage Results" MODIFIED="1781818254378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flaming_June$flaming_june_mod.coverage" NAME="flaming_june-mod Coverage Results" MODIFIED="1781506168823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
