@@ -39,10 +39,10 @@ def fire_color(v, alpha):
     return (255, 245, 210, alpha)
 
 # area init
-scale = 2.5
-fire_surf = pygame.Surface((fSizeX, fSizeY)).convert()
-fire_big = pygame.Surface((fSizeX * scale, fSizeY * scale)).convert()
-glow_big = pygame.Surface((fSizeX * scale * 2, fSizeY * scale * 2)).convert()
+scale = 3.5
+fire_surf = pygame.Surface((fSizeX+100, fSizeY)).convert()
+fire_big = pygame.Surface((fSizeX * scale+100, fSizeY * scale)).convert()
+glow_big = pygame.Surface((fSizeX * scale * 2+100, fSizeY * scale * 2)).convert()
 
 palette = [fire_surf.map_rgb(fire_color(i, i)) for i in range(256)]
 flame = [flame[:] for flame in [[0] * (fSizeX+1)] * (fSizeY+1)]
@@ -74,7 +74,9 @@ while running:
             b = int(127 + 127 * math.sin(tick * 0.004 + i * 0.45 + 4.2))
 
             letter = font.render(char, True, (r, g, b))
-            letter = pygame.transform.rotozoom(letter, 90, 1)
+            letter = pygame.transform.rotozoom(letter, 90, 0.95)
+            screen.blit(letter, (x, y))
+            letter = pygame.transform.rotozoom(letter, 0, 1)
             screen.blit(letter, (x, y))
             y -= letter.get_height()
 
@@ -102,7 +104,7 @@ while running:
                             + flame[y + 1][src_x]
                             + flame[y + 1][src_x + 1]
                             + flame[y][x]
-                    ) / 4 / 0.969
+                    ) / 4 / 0.9685
 
             heat = max(0, int(value - cooling))
             flame[y][x] = heat
@@ -124,9 +126,11 @@ while running:
         fire_big,
         (fStartX, fStartY - fSizeY * scale),
     )
-    pygame.transform.smoothscale(fire_surf, glow_big.get_size(), glow_big)
-    glow_big.set_alpha(255)
-
+    pygame.transform.scale(fire_surf, glow_big.get_size(), glow_big)
+    try:
+        glow_big.set_alpha(alpha[random.randint(1, 255)][random.randint(1, 255)])
+    except IndexError:
+        glow_big.set_alpha(200)
     screen.blit(
         glow_big,
         (fStartX - fSizeX * scale * 3 // 2, fStartY - fSizeY * scale * 3),
