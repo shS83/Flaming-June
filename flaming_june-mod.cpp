@@ -15,11 +15,13 @@
 namespace {
 constexpr int windowWidth = 1024;
 constexpr int windowHeight = 768;
-constexpr int fireWidth = windowWidth;
-constexpr int fireHeight = 600;
-constexpr int surfaceWidth = windowWidth;
-constexpr double scale = 3.5;
+constexpr int fireWidth = windowWidth - 300;
+constexpr int fireHeight = 400;
+constexpr double scale = 2;
+// Keskitetään molemmat kerrokset niiden oman piirtoleveyden mukaan.
 constexpr int startX = (windowWidth - fireWidth) / 2;
+constexpr int glowWidth = static_cast<int>(fireWidth * scale * 2 + 100);
+constexpr int glowStartX = (windowWidth - glowWidth) / 2;
 
 // SDL palauttaa C-rajapinnan osoittimia. unique_ptr omistaa resurssin ja kutsuu
 // tuhoajaa automaattisesti myös silloin, kun poikkeus keskeyttää suorituksen.
@@ -111,8 +113,8 @@ void composite(std::vector<Uint32>& pixels, const Fire& fire,
         for (int x = std::max(0, destination.x);
              x < std::min(windowWidth, destination.x + destination.w); ++x) {
             // Kokonaislukujako tekee saman lähimmän pikselin skaalauksen kuin
-            // pygame.transform.scale. Lähdekuvan oikea 100 pikseliä on mustaa.
-            const int sourceX = (x - destination.x) * surfaceWidth / destination.w;
+            // pygame.transform.scale. Lähteen leveys on liekin todellinen leveys.
+            const int sourceX = (x - destination.x) * fireWidth / destination.w;
             const int sourceY = (y - destination.y) * fireHeight / destination.h;
             const SDL_Color source = fire.sample(sourceX, sourceY);
             auto& pixel = pixels[static_cast<std::size_t>(y) * windowWidth + x];
@@ -243,15 +245,14 @@ int main(int argc, char** argv) {
             if (!running) break;
             fire.update();
             std::fill(pixels.begin(), pixels.end(), 0xff000000u);
-			composite(pixels, fire, {0, windowHeight - static_cast<int>(fireHeight * scale),
-            windowWidth, static_cast<int>(fireHeight * scale)}, false);
+            composite(pixels, fire, {startX, windowHeight - static_cast<int>(fireHeight * scale),
+                      fireWidth, static_cast<int>(fireHeight * scale)}, false);
             // PyGamen BLEND_RGBA_SUB vähentää RGB-kanavat; set_alpha ei tee
             // siitä tavallista läpinäkyvää hehkua. Tehdään vähennys CPU:lla,
             // koska SDL2:n perussekoitustiloissa ei ole vähennystilaa.
-            composite(pixels, fire, {startX - static_cast<int>(fireWidth * scale * 3 / 2),
+            composite(pixels, fire, {glowStartX,
                       windowHeight - static_cast<int>(fireHeight * scale * 3),
-                      static_cast<int>(fireWidth * scale * 2 + 100),
-                      static_cast<int>(fireHeight * scale * 2)}, true);
+                      glowWidth, static_cast<int>(fireHeight * scale * 2)}, true);
             check(SDL_UpdateTexture(frame.get(), nullptr, pixels.data(), windowWidth * sizeof(Uint32)) == 0,
                   "Pikselien siirto");
             check(SDL_SetRenderDrawColor(renderer.get(), 0, 0, 0, 255) == 0, "Taustaväri");
